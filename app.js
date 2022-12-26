@@ -21,7 +21,7 @@ app.use(require('./router/auth'));
 app.use(require('./router/Problems/ProblemsRoutes'));
 app.use(require('./router/Problems/ProblemSolutionRoutes'))
 app.use(require('./router/UserAction/Followers'))
-app.use(require('./router/Blog/Blog'))
+app.use(require('./router/Blog/Blog.js'))
 app.use(require('./router/Users/userList'))
 app.use(require('./router/Images/images'))
 app.use(require('./router/Blog/LikeBlogs'))
