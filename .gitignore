@@ -1,6 +1,6 @@
 node_modules
-temp
-config.env
-public
-videos
-blog
+# temp
+# config.env
+# public
+# videos
+# blog
