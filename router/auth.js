@@ -65,12 +65,6 @@ var upload = multer({
 });
 
 
-
-
-router.get('/', (req,res)=>{
-    res.send(`hello world from the server router js`)
-})
-
 ///////////////// user //////////////// 
 
 router.post('/registerUser',async(req,res)=>{
