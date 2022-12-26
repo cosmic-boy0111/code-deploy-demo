@@ -3,12 +3,8 @@ const express = require('express')
 const router = express.Router()
 
 const cppProblems = require('../../model/Problems/Problems')
-var rimraf = require("rimraf");
 
 const Search = require('../../model/Search/Search')
-
-// var rimraf = require("rimraf");
-// rimraf("./server/temp", function () { console.log("done"); });
 
 
 
